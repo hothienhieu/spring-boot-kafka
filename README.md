@@ -13,11 +13,16 @@ Maker sure Docker is installed and running on your machine. Reference: [Docker D
 1.3. Verify that the Zookeeper and Kafka is running in Docker Desktop:
 ![zookeeperAndKafkaIsRunning.png](images/zookeeperAndKafkaIsRunning.png)
 
-### 2. Start application and test the Kafka
-2.1. Start application: `gradle clean bootRun`
+### 2. Application
+Start application and test the Kafka
+
+2.1. Initialize the application: https://start.spring.io/
+![initApplication.png](images/initApplication.png)
+
+2.2. Start application: `gradle clean bootRun`
 ![startApplication.png](images/startApplicaiton.png)
 
-2.2. Publish a message:
+2.3. Publish a message:
 ![publishMessage.png](images/publishMessage.png)
 We see in the console log:
 ![publishMessageLog.png](images/publishMessageLog.png)
