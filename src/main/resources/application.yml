@@ -1,0 +1,4 @@
+logging:
+  pattern:
+  level:
+    org.apache.kafka: ERROR
